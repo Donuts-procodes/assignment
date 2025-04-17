@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   margin: 0;
   width: 100vw;
+  scroll-behavior: smooth;
 }
 
 .home-div {
@@ -563,8 +564,8 @@ h5 {
 }
 .demo{
   background-color: #16325B;
-  width: 80%;
-  border-radius: 25px;
+  width: 70%;
+  border-radius: 2.5rem;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   display: flex;
