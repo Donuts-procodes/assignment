@@ -2,755 +2,703 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<div class="home-div">
+    <div class="home-div">
+        <div id="navbar">
+            <nav class="top-nav-bar">
+                <div class="logo">
+                    <a href="index.html"><img src="Title.png" alt="Logo"></a>
+                </div>
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#choose">Why Choose Us?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#benefits">Benefits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><button id="whatsapp-btn" class="btn rounded-pill">Whatsapp Us</button></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mid-info" id="home">
+            <div class="container" id="left-content">
+                <div>
+                    <h1 class="ivf-head">TAILORED IVF MANAGEMENT SOFTWARE FOR CLINICS</h1>
+                </div>
+                <div>
+                    <p class="ivf-info"> Your All-in-One Software for Enhanced IVF Clinic Management and Patient Experience
+                    </p>
+                </div>
+                <div class="img-info">
+                    <div class="img-info">
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                color="#33bdf0" fill="none">
+                                <path
+                                    d="M14 21H16M14 21C13.1716 21 12.5 20.3284 12.5 19.5V17L12 17M14 21H10M10 21H8M10 21C10.8284 21 11.5 20.3284 11.5 19.5V17L12 17M12 17V21"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M16 3H8C5.17157 3 3.75736 3 2.87868 3.87868C2 4.75736 2 6.17157 2 9V11C2 13.8284 2 15.2426 2.87868 16.1213C3.75736 17 5.17157 17 8 17H16C18.8284 17 20.2426 17 21.1213 16.1213C22 15.2426 22 13.8284 22 11V9C22 6.17157 22 4.75736 21.1213 3.87868C20.2426 3 18.8284 3 16 3Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M8.5 10.5006C8.5 10.5006 9.5 11.0006 10.25 12.5006C10.25 12.5006 13.0294 8.33394 15.5 7.50061"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <p class="img-des">In-Built CRM</p>
+                        </div>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                color="#33bdf0" fill="none">
+                                <path d="M7.01428 16.0029H11.0143M7.01428 11.0053H15.0143" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M10.0143 21.9999H11.0143" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M7.51083 21.9999C6.33921 21.9749 5.53921 21.9 4.76421 21.6751C3.71491 21.4002 2.94905 20.4757 2.72421 19.1763C2.43921 17.9519 2.53921 14.9284 2.51416 11.3302C2.51623 8.53874 2.3892 5.85787 2.8392 4.33362C3.1142 3.83386 3.3392 2.00976 7.06421 2.03475C7.68921 2.00976 14.3142 1.95978 15.3642 2.05973C18.8642 2.1347 19.2142 3.93381 19.4142 5.63298C19.541 6.88236 19.5142 8.88138 19.5142 11.0053M7.01421 2.00976C7.31421 3.63396 7.28921 4.68344 8.38921 4.93332C8.86421 5.00828 9.9495 5.00628 11.1142 5.00828C12.1538 5.01007 13.2142 5.01945 13.6892 4.90833C14.8642 4.63347 14.7392 3.18418 15.0392 2.00976"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                <path
+                                    d="M18.2786 14.3787C16.9045 15.778 14.2563 18.2768 14.2563 18.4517C14.0427 18.7483 13.8565 19.3512 13.7316 20.2008C13.5747 20.9884 13.3868 21.6751 13.6067 21.875C13.8266 22.0749 14.6545 21.9064 15.5304 21.7251C16.2299 21.6501 16.8795 21.4002 17.2043 21.1504C17.679 20.7304 20.9018 17.4772 21.2766 17.0524C21.5514 16.6776 21.5764 15.9779 21.3365 15.5531C21.2016 15.2533 20.3522 14.4536 20.0774 14.2288C19.5777 13.9289 18.8782 13.8789 18.2786 14.3787Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <p class="img-des">Patient Insight </p>
+                        </div>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                color="#33bdf0" fill="none">
+                                <path d="M16 2V6M8 2V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M21 12.5V12C21 8.22876 21 6.34315 19.8284 5.17157C18.6569 4 16.7712 4 13 4H11C7.22876 4 5.34315 4 4.17157 5.17157C3 6.34315 3 8.22876 3 12V14C3 17.7712 3 19.6569 4.17157 20.8284C5.34315 22 7.22876 22 11 22"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M3 10H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M17.5 20.5C18.4293 20.5 19.2402 19.993 19.671 19.2404M17.5 20.5C16.5707 20.5 15.7598 19.993 15.329 19.2404M17.5 20.5L17.5 22M17.5 15.5C18.4292 15.5 19.24 16.0069 19.6709 16.7593M17.5 15.5C16.5708 15.5 15.76 16.0069 15.3291 16.7593M17.5 15.5L17.5 14M21 15.9998L19.6709 16.7593M14 19.9998L15.329 19.2404M21 19.9998L19.671 19.2404M14 15.9998L15.3291 16.7593M19.6709 16.7593C19.8803 17.1249 20 17.5485 20 18C20 18.4514 19.8804 18.8749 19.671 19.2404M15.329 19.2404C15.1196 18.8749 15 18.4514 15 18C15 17.5485 15.1197 17.1249 15.3291 16.7593"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <p class="img-des">Custom Fit </p>
+                        </div>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                color="#33bdf0" fill="none">
+                                <path
+                                    d="M11.024 22C15.3242 22 18.9218 18.9922 19.8279 14.9657C20.0135 14.141 20.1063 13.7286 19.8052 13.3523C19.5042 12.976 19.017 12.976 18.0427 12.976H11.024M11.024 22C6.04018 22 2 17.9598 2 12.976C2 8.67584 5.00779 5.07818 9.03431 4.17208C9.85901 3.9865 10.2714 3.89371 10.6477 4.19475C11.024 4.4958 11.024 4.98298 11.024 5.95734V12.976M11.024 22V12.976"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                <path
+                                    d="M21.5541 7.02647C20.7305 4.93588 19.0641 3.26953 16.9735 2.44595C15.8783 2.01448 15.3307 1.79874 14.6653 2.25173C14 2.70472 14 3.44563 14 4.92747V6.95648C14 8.39121 14 9.10857 14.4457 9.55429C14.8914 10 15.6088 10 17.0435 10H19.0725C20.5544 10 21.2953 10 21.7483 9.33467C22.2013 8.66935 21.9855 8.12172 21.5541 7.02647Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                            <p class="img-des">Info on-the-go</p>
+                        </div>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                color="#33bdf0" fill="none">
+                                <path
+                                    d="M17.4776 9.01106C17.485 9.01102 17.4925 9.01101 17.5 9.01101C19.9853 9.01101 22 11.0294 22 13.5193C22 15.8398 20.25 17.7508 18 18M17.4776 9.01106C17.4924 8.84606 17.5 8.67896 17.5 8.51009C17.5 5.46695 15.0376 3 12 3C9.12324 3 6.76233 5.21267 6.52042 8.03192M17.4776 9.01106C17.3753 10.1476 16.9286 11.1846 16.2428 12.0165M6.52042 8.03192C3.98398 8.27373 2 10.4139 2 13.0183C2 15.4417 3.71776 17.4632 6 17.9273M6.52042 8.03192C6.67826 8.01687 6.83823 8.00917 7 8.00917C8.12582 8.00917 9.16474 8.38194 10.0005 9.01101"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M12 13L12 21M12 13C11.2998 13 9.99153 14.9943 9.5 15.5M12 13C12.7002 13 14.0085 14.9943 14.5 15.5"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <p class="img-des">Data Transfer</p>
+                        </div>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                color="#33bdf0" fill="none">
+                                <path
+                                    d="M4.51255 19.4866C7.02498 21.8794 10.016 20.9223 11.2124 19.9532C11.8314 19.4518 12.1097 19.1277 12.3489 18.8884C13.1864 18.1107 13.1326 17.3331 12.5882 16.711C12.3704 16.462 10.9731 15.1198 9.63313 13.7439C8.93922 13.0499 8.46066 12.5595 8.05149 12.1647C7.50354 11.6185 7.02499 10.9922 6.30715 11.0101C5.64913 11.0101 5.17057 11.5904 4.57237 12.1886C3.88422 12.8767 3.37598 13.7439 3.19652 14.5216C2.65814 16.7947 3.49562 18.4098 4.51255 19.4866ZM4.51255 19.4866L2.00012 21.999"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                                <path
+                                    d="M19.4867 4.51472C16.9736 2.12078 13.9929 3.09593 12.7962 4.06548C12.177 4.56712 11.8987 4.89138 11.6593 5.13078C10.8216 5.90881 10.8755 6.68683 11.42 7.30926C11.4983 7.39881 11.7292 7.62975 12.055 7.95281M19.4867 4.51472C20.504 5.59199 21.3528 7.22547 20.8142 9.49971C20.6347 10.2777 20.1264 11.1453 19.438 11.8338C18.8397 12.4323 18.361 13.0128 17.7028 13.0128C16.9847 13.0308 16.6121 12.5115 16.064 11.9651M19.4867 4.51472L21.9999 2.0011M16.064 11.9651C15.6547 11.5701 15.07 10.9721 14.3759 10.2777C13.5175 9.39612 12.6355 8.52831 12.055 7.95281M16.064 11.9651L14.5024 13.4896M10.5114 9.50609L12.055 7.95281"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                            <p class="img-des">Easy Connect</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="right-content">
+                <form action="" class="form-one">
+                    <div>
+                        <h1>Schedule a Free Demo</h1>
+                    </div>
+                    <div class="input-row-one">
+                        <input type="text" name="" id="name" placeholder="Clinic Name*">
+                        <input type="email" name="" id="email" placeholder="Company Email*">
+                    </div>
+                    <div class="input-row-two">
+                        <input type="number" name="" id="phn-number" placeholder="Mobile*">
+                        <input type="text" id="location" placeholder="Location*">
+                    </div>
+                    <div class="checkbox-div">
+                        <input type="checkbox" id="check-box">
+                        <p class="checkbox-text">
+                            I agree and accept <a class="yellow">Terms and conditions</a>
+                        </p>
+                    </div>
+                    <div>
+                        <button class="schedule-btn">
+                            <b>Schedule Demo</b>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                                color="#f6c90e" fill="none">
+                                <path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
-		<div id="navbar">
-			<nav class="top-nav-bar">
-				<div class="logo">
-					<a href="index.html"><img src="Title.png" alt="Logo"></a>
-				</div>
-				<ul class="nav-links">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Why Choose Us?</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Benefits</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">FAQs</a>
-					</li>
-					<li class="nav-item">
-						<a href="#"><button id="whatsapp-btn" class="btn rounded-pill">Whatsapp Us</button></a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<div class="mid-info">
-			<div class="container" id="left-content">
-				<div>
-					<h1 class="ivf-head">TAILORED IVF MANAGEMENT SOFTWARE FOR CLINICS</h1>
-				</div>
-				<div>
-					<p class="ivf-info"> Your All-inOne Software for Enchanced IVF Clinic Management and Patient
-						Experience
-					</p>
-				</div>
-				<div class="img-info">
-					<div class="img-info">
-						<div class="icon-box">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#33bdf0" fill="none">
-								<path
-									d="M14 21H16M14 21C13.1716 21 12.5 20.3284 12.5 19.5V17L12 17M14 21H10M10 21H8M10 21C10.8284 21 11.5 20.3284 11.5 19.5V17L12 17M12 17V21"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-								<path
-									d="M16 3H8C5.17157 3 3.75736 3 2.87868 3.87868C2 4.75736 2 6.17157 2 9V11C2 13.8284 2 15.2426 2.87868 16.1213C3.75736 17 5.17157 17 8 17H16C18.8284 17 20.2426 17 21.1213 16.1213C22 15.2426 22 13.8284 22 11V9C22 6.17157 22 4.75736 21.1213 3.87868C20.2426 3 18.8284 3 16 3Z"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-								<path
-									d="M8.5 10.5006C8.5 10.5006 9.5 11.0006 10.25 12.5006C10.25 12.5006 13.0294 8.33394 15.5 7.50061"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-							</svg>
-							<p class="img-des">In-Built CRM</p>
-						</div>
-						<div class="icon-box">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#33bdf0" fill="none">
-								<path d="M7.01428 16.0029H11.0143M7.01428 11.0053H15.0143" stroke="currentColor"
-									stroke-width="1.5" stroke-linecap="round" />
-								<path d="M10.0143 21.9999H11.0143" stroke="currentColor" stroke-width="1.5"
-									stroke-linecap="round" />
-								<path
-									d="M7.51083 21.9999C6.33921 21.9749 5.53921 21.9 4.76421 21.6751C3.71491 21.4002 2.94905 20.4757 2.72421 19.1763C2.43921 17.9519 2.53921 14.9284 2.51416 11.3302C2.51623 8.53874 2.3892 5.85787 2.8392 4.33362C3.1142 3.83386 3.3392 2.00976 7.06421 2.03475C7.68921 2.00976 14.3142 1.95978 15.3642 2.05973C18.8642 2.1347 19.2142 3.93381 19.4142 5.63298C19.541 6.88236 19.5142 8.88138 19.5142 11.0053M7.01421 2.00976C7.31421 3.63396 7.28921 4.68344 8.38921 4.93332C8.86421 5.00828 9.9495 5.00628 11.1142 5.00828C12.1538 5.01007 13.2142 5.01945 13.6892 4.90833C14.8642 4.63347 14.7392 3.18418 15.0392 2.00976"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-								<path
-									d="M18.2786 14.3787C16.9045 15.778 14.2563 18.2768 14.2563 18.4517C14.0427 18.7483 13.8565 19.3512 13.7316 20.2008C13.5747 20.9884 13.3868 21.6751 13.6067 21.875C13.8266 22.0749 14.6545 21.9064 15.5304 21.7251C16.2299 21.6501 16.8795 21.4002 17.2043 21.1504C17.679 20.7304 20.9018 17.4772 21.2766 17.0524C21.5514 16.6776 21.5764 15.9779 21.3365 15.5531C21.2016 15.2533 20.3522 14.4536 20.0774 14.2288C19.5777 13.9289 18.8782 13.8789 18.2786 14.3787Z"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-							</svg>
-							<p class="img-des">Patient Insight </p>
-						</div>
-						<div class="icon-box">
+    <div class="tier-two">
+        <!-- 1st -->
+        <span class="info-spans">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
+                fill="none">
+                <path
+                    d="M12.0027 21C7.28739 21 4.92973 21 3.46487 19.5355C2 18.0711 2 15.714 2 11V7.94427C2 6.1278 2 5.21956 2.38042 4.53806C2.6516 4.05227 3.05255 3.65142 3.53848 3.38032C4.22017 3 5.12865 3 6.94562 3C8.10968 3 8.69172 3 9.20122 3.19101C10.3645 3.62712 10.8442 4.68358 11.3691 5.73313L12.0027 7M8.00163 7H16.754C18.8613 7 19.9149 7 20.6718 7.50559C20.9995 7.72447 21.2808 8.00572 21.4997 8.33329C21.8937 8.92282 21.9808 9.69244 22 11"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path
+                    d="M16.75 15.5V13.75C16.75 12.7835 17.5335 12 18.5 12C19.4665 12 20.25 12.7835 20.25 13.75V15.5M22 18.25C22 17.0772 22 16.4908 21.69 16.0869C21.6102 15.9829 21.5171 15.8898 21.4131 15.81C21.0092 15.5 20.4228 15.5 19.25 15.5H17.75C16.5772 15.5 15.9908 15.5 15.5869 15.81C15.4829 15.8898 15.3898 15.9829 15.31 16.0869C15 16.4908 15 17.0772 15 18.25C15 19.4228 15 20.0092 15.31 20.4131C15.3898 20.5171 15.4829 20.6102 15.5869 20.69C15.9908 21 16.5772 21 17.75 21H19.25C20.4228 21 21.0092 21 21.4131 20.69C21.5171 20.6102 21.6102 20.5171 21.69 20.4131C22 20.0092 22 19.4228 22 18.25Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+            </svg>
+            <h5>Data Protection</h5>
+            <p class="span-p">Protect Data Leakage with Strict Data Protection</p>
+        </span>
 
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#33bdf0" fill="none">
-								<path d="M16 2V6M8 2V6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-								<path
-									d="M21 12.5V12C21 8.22876 21 6.34315 19.8284 5.17157C18.6569 4 16.7712 4 13 4H11C7.22876 4 5.34315 4 4.17157 5.17157C3 6.34315 3 8.22876 3 12V14C3 17.7712 3 19.6569 4.17157 20.8284C5.34315 22 7.22876 22 11 22"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-								<path d="M3 10H21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-								<path
-									d="M17.5 20.5C18.4293 20.5 19.2402 19.993 19.671 19.2404M17.5 20.5C16.5707 20.5 15.7598 19.993 15.329 19.2404M17.5 20.5L17.5 22M17.5 15.5C18.4292 15.5 19.24 16.0069 19.6709 16.7593M17.5 15.5C16.5708 15.5 15.76 16.0069 15.3291 16.7593M17.5 15.5L17.5 14M21 15.9998L19.6709 16.7593M14 19.9998L15.329 19.2404M21 19.9998L19.671 19.2404M14 15.9998L15.3291 16.7593M19.6709 16.7593C19.8803 17.1249 20 17.5485 20 18C20 18.4514 19.8804 18.8749 19.671 19.2404M15.329 19.2404C15.1196 18.8749 15 18.4514 15 18C15 17.5485 15.1197 17.1249 15.3291 16.7593"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-							</svg>
-							<p class="img-des">Custom Fit </p>
-						</div>
-						<div class="icon-box">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#33bdf0" fill="none">
-								<path
-									d="M11.024 22C15.3242 22 18.9218 18.9922 19.8279 14.9657C20.0135 14.141 20.1063 13.7286 19.8052 13.3523C19.5042 12.976 19.017 12.976 18.0427 12.976H11.024M11.024 22C6.04018 22 2 17.9598 2 12.976C2 8.67584 5.00779 5.07818 9.03431 4.17208C9.85901 3.9865 10.2714 3.89371 10.6477 4.19475C11.024 4.4958 11.024 4.98298 11.024 5.95734V12.976M11.024 22V12.976"
-									stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-								<path
-									d="M21.5541 7.02647C20.7305 4.93588 19.0641 3.26953 16.9735 2.44595C15.8783 2.01448 15.3307 1.79874 14.6653 2.25173C14 2.70472 14 3.44563 14 4.92747V6.95648C14 8.39121 14 9.10857 14.4457 9.55429C14.8914 10 15.6088 10 17.0435 10H19.0725C20.5544 10 21.2953 10 21.7483 9.33467C22.2013 8.66935 21.9855 8.12172 21.5541 7.02647Z"
-									stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-							</svg>
-							<p class="img-des">Info on-the-go</p>
-						</div>
-						<div class="icon-box">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#33bdf0" fill="none">
-								<path
-									d="M17.4776 9.01106C17.485 9.01102 17.4925 9.01101 17.5 9.01101C19.9853 9.01101 22 11.0294 22 13.5193C22 15.8398 20.25 17.7508 18 18M17.4776 9.01106C17.4924 8.84606 17.5 8.67896 17.5 8.51009C17.5 5.46695 15.0376 3 12 3C9.12324 3 6.76233 5.21267 6.52042 8.03192M17.4776 9.01106C17.3753 10.1476 16.9286 11.1846 16.2428 12.0165M6.52042 8.03192C3.98398 8.27373 2 10.4139 2 13.0183C2 15.4417 3.71776 17.4632 6 17.9273M6.52042 8.03192C6.67826 8.01687 6.83823 8.00917 7 8.00917C8.12582 8.00917 9.16474 8.38194 10.0005 9.01101"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-								<path
-									d="M12 13L12 21M12 13C11.2998 13 9.99153 14.9943 9.5 15.5M12 13C12.7002 13 14.0085 14.9943 14.5 15.5"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-							</svg>
-							<p class="img-des">Data Transfer</p>
-						</div>
-						<div class="icon-box">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#33bdf0" fill="none">
-								<path
-									d="M4.51255 19.4866C7.02498 21.8794 10.016 20.9223 11.2124 19.9532C11.8314 19.4518 12.1097 19.1277 12.3489 18.8884C13.1864 18.1107 13.1326 17.3331 12.5882 16.711C12.3704 16.462 10.9731 15.1198 9.63313 13.7439C8.93922 13.0499 8.46066 12.5595 8.05149 12.1647C7.50354 11.6185 7.02499 10.9922 6.30715 11.0101C5.64913 11.0101 5.17057 11.5904 4.57237 12.1886C3.88422 12.8767 3.37598 13.7439 3.19652 14.5216C2.65814 16.7947 3.49562 18.4098 4.51255 19.4866ZM4.51255 19.4866L2.00012 21.999"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-								<path
-									d="M19.4867 4.51472C16.9736 2.12078 13.9929 3.09593 12.7962 4.06548C12.177 4.56712 11.8987 4.89138 11.6593 5.13078C10.8216 5.90881 10.8755 6.68683 11.42 7.30926C11.4983 7.39881 11.7292 7.62975 12.055 7.95281M19.4867 4.51472C20.504 5.59199 21.3528 7.22547 20.8142 9.49971C20.6347 10.2777 20.1264 11.1453 19.438 11.8338C18.8397 12.4323 18.361 13.0128 17.7028 13.0128C16.9847 13.0308 16.6121 12.5115 16.064 11.9651M19.4867 4.51472L21.9999 2.0011M16.064 11.9651C15.6547 11.5701 15.07 10.9721 14.3759 10.2777C13.5175 9.39612 12.6355 8.52831 12.055 7.95281M16.064 11.9651L14.5024 13.4896M10.5114 9.50609L12.055 7.95281"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-							</svg>
-							<p class="img-des">Easy Connect</p>
-						</div>
-					</div>
+        <!-- 2nd -->
+        <span class="info-spans">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
+                fill="none">
+                <path d="M17 2V4M12 2V4M7 2V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path
+                    d="M3.5 10C3.5 6.70017 3.5 5.05025 4.52513 4.02513C5.55025 3 7.20017 3 10.5 3H13.5C16.7998 3 18.4497 3 19.4749 4.02513C20.5 5.05025 20.5 6.70017 20.5 10V15C20.5 18.2998 20.5 19.9497 19.4749 20.9749C18.4497 22 16.7998 22 13.5 22H10.5C7.20017 22 5.55025 22 4.52513 20.9749C3.5 19.9497 3.5 18.2998 3.5 15V10Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M13.5 16H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M13.5 9H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path d="M7 10C7 10 7.5 10 8 11C8 11 9.58824 8.5 11 8" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M7 17C7 17 7.5 17 8 18C8 18 9.58824 15.5 11 15" stroke="currentColor" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h5>Built in Task Manager</h5>
+            <p class="span-p">Never Miss a Task, Get Notified at Each Approval</p>
+        </span>
 
-				</div>
-			</div>
-			<div class="container" id="right-content">
-				<form action="" class="form-one">
-					<div>
-						<h1>
-							Schedule a Free Demo
-						</h1>
-					</div>
-					<div class="input-row-one">
-						<input type="text" name="" id="name" placeholder="Clinic Name*">
-						<input type="email" name="" id="email" placeholder="Company Email*">
-					</div>
-					<div class="input-row-two">
-						<input type="number" name="" id="phn-number" placeholder="Mobile*">
-						<input type="text" id="location" placeholder="Location*">
-					</div>
-					<div class="checkbox-div">
-						<input type="checkbox" id="check-box">
-						<p class="checkbox-text">
-							I agree and accept <a class="yellow">Terms and conditions</a>
-						</p>
-					</div>
-					<div>
-						<button class="schedule-btn">
-							<b>
-								Schedule Demo
-							</b>
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#f6c90e" fill="none">
-								<path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5"
-									stroke-linecap="round" stroke-linejoin="round" />
-								<path
-									d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-							</svg>
-							</svg>
-						</button>
-					</div>
-				</form>
+        <!-- 3rd -->
+        <span class="info-spans">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
+                fill="none">
+                <path d="M4 15V7C4 5.11438 4 4.17157 4.58579 3.58579C5.17157 3 6.11438 3 8 3H11M20 15V14.5"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M18 2C19.8856 2 20.8284 2 21.4142 2.58579C22 3.17157 22 4.11438 22 6V8C22 9.88562 22 10.8284 21.4142 11.4142C20.8284 12 19.8856 12 18 12C16.1144 12 15.1716 12 14.5858 11.4142C14 10.8284 14 9.88562 14 8L14 6C14 4.11438 14 3.17157 14.5858 2.58579C15.1716 2 16.1144 2 18 2Z"
+                    stroke="currentColor" stroke-width="1.5" />
+                <path d="M18 9H18.009" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path
+                    d="M3.49762 16.0154L4.01953 15H19.9518L20.5023 16.0154C21.9452 18.677 22.3046 20.0077 21.7561 21.0039C21.2077 22 19.7536 22 16.8454 22L7.15462 22C4.24642 22 2.79231 22 2.24387 21.0039C1.69543 20.0077 2.05474 18.677 3.49762 16.0154Z"
+                    stroke="currentColor" stroke-width="1.5" />
+            </svg>
+            <h5>Easy Walkthrough</h5>
+            <p class="span-p">Access Patient Info Anytime, From any Screen</p>
+        </span>
 
-			</div>
-		</div>
-	</div>
-
-	<div class="tier-two">
-
-
-		<!-- 1st -->
-		<span class="info-spans">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
-				fill="none">
-				<path
-					d="M12.0027 21C7.28739 21 4.92973 21 3.46487 19.5355C2 18.0711 2 15.714 2 11V7.94427C2 6.1278 2 5.21956 2.38042 4.53806C2.6516 4.05227 3.05255 3.65142 3.53848 3.38032C4.22017 3 5.12865 3 6.94562 3C8.10968 3 8.69172 3 9.20122 3.19101C10.3645 3.62712 10.8442 4.68358 11.3691 5.73313L12.0027 7M8.00163 7H16.754C18.8613 7 19.9149 7 20.6718 7.50559C20.9995 7.72447 21.2808 8.00572 21.4997 8.33329C21.8937 8.92282 21.9808 9.69244 22 11"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-				<path
-					d="M16.75 15.5V13.75C16.75 12.7835 17.5335 12 18.5 12C19.4665 12 20.25 12.7835 20.25 13.75V15.5M22 18.25C22 17.0772 22 16.4908 21.69 16.0869C21.6102 15.9829 21.5171 15.8898 21.4131 15.81C21.0092 15.5 20.4228 15.5 19.25 15.5H17.75C16.5772 15.5 15.9908 15.5 15.5869 15.81C15.4829 15.8898 15.3898 15.9829 15.31 16.0869C15 16.4908 15 17.0772 15 18.25C15 19.4228 15 20.0092 15.31 20.4131C15.3898 20.5171 15.4829 20.6102 15.5869 20.69C15.9908 21 16.5772 21 17.75 21H19.25C20.4228 21 21.0092 21 21.4131 20.69C21.5171 20.6102 21.6102 20.5171 21.69 20.4131C22 20.0092 22 19.4228 22 18.25Z"
-					stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+        <!-- 4th -->
+        <span class="info-spans">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff" fill="none">
+				<path d="M18.7185 10.7151C18.5258 10.8979 18.2682 11 18.0001 11C17.732 11 17.4744 10.8979 17.2817 10.7151C15.5167 9.03169 13.1515 7.15111 14.305 4.42085C14.9286 2.94462 16.4257 2 18.0001 2C19.5745 2 21.0715 2.94462 21.6952 4.42085C22.8472 7.14767 20.4878 9.03749 18.7185 10.7151Z" stroke="currentColor" stroke-width="1.5" />
+				<path d="M18 6H18.009" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+				<circle cx="5" cy="19" r="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+				<path d="M11 7H9.5C7.567 7 6 8.34315 6 10C6 11.6569 7.567 13 9.5 13H12.5C14.433 13 16 14.3431 16 16C16 17.6569 14.433 19 12.5 19H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 			</svg>
-			<h5>Data Protection</h5>
-			<p class="span-p">Protect Data Leakage with Strict Data Protection</p>
-		</span>
+            <h5>Map Patients Journey</h5>
+            <p class="span-p">Step Linked Progression Bar to Know Milestones</p>
+        </span>
 
+        <!-- 5th -->
+        <span class="info-spans">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
+                fill="none">
+                <path
+                    d="M14 2H10C6.72077 2 5.08116 2 3.91891 2.81382C3.48891 3.1149 3.1149 3.48891 2.81382 3.91891C2 5.08116 2 6.72077 2 10C2 13.2792 2 14.9188 2.81382 16.0811C3.1149 16.5111 3.48891 16.8851 3.91891 17.1862C5.08116 18 6.72077 18 10 18H14C17.2792 18 18.9188 18 20.0811 17.1862C20.5111 16.8851 20.8851 16.5111 21.1862 16.0811C22 14.9188 22 13.2792 22 10C22 6.72077 22 5.08116 21.1862 3.91891C20.8851 3.48891 20.5111 3.1149 20.0811 2.81382C18.9188 2 17.2792 2 14 2Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                <path
+                    d="M16 8L17.2265 9.05719C17.7422 9.50163 18 9.72386 18 10C18 10.2761 17.7422 10.4984 17.2265 10.9428L16 12"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                    d="M8 8L6.77346 9.05719C6.25782 9.50163 6 9.72386 6 10C6 10.2761 6.25782 10.4984 6.77346 10.9428L8 12"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M13 7L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M14.6557 22L14.2369 21.5811C13.2926 20.6369 13.0585 19.1944 13.6557 18" stroke="currentColor"
+                    stroke-width="1.5" stroke-linecap="round" />
+                <path d="M9.00051 22L9.41937 21.5811C10.3636 20.6369 10.5977 19.1944 10.0005 18" stroke="currentColor"
+                    stroke-width="1.5" />
+                <path d="M7 22H17" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+            <h5>One Stop Solution</h5>
+            <p class="span-p">No Need For Multiple Software Just Use One</p>
+        </span>
 
-		<!-- 2nd -->
-		<span class="info-spans">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
-				fill="none">
-				<path d="M17 2V4M12 2V4M7 2V4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-					stroke-linejoin="round" />
-				<path
-					d="M3.5 10C3.5 6.70017 3.5 5.05025 4.52513 4.02513C5.55025 3 7.20017 3 10.5 3H13.5C16.7998 3 18.4497 3 19.4749 4.02513C20.5 5.05025 20.5 6.70017 20.5 10V15C20.5 18.2998 20.5 19.9497 19.4749 20.9749C18.4497 22 16.7998 22 13.5 22H10.5C7.20017 22 5.55025 22 4.52513 20.9749C3.5 19.9497 3.5 18.2998 3.5 15V10Z"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-				<path d="M13.5 16H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-				<path d="M13.5 9H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-				<path d="M7 10C7 10 7.5 10 8 11C8 11 9.58824 8.5 11 8" stroke="currentColor" stroke-width="1.5"
-					stroke-linecap="round" stroke-linejoin="round" />
-				<path d="M7 17C7 17 7.5 17 8 18C8 18 9.58824 15.5 11 15" stroke="currentColor" stroke-width="1.5"
-					stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-			<h5>Built in Task Manager</h5>
-			<p class="span-p">Never Miss a Task, Get Notified at Each Approval</p>
-		</span>
+        <!-- 6th -->
+        <span class="info-spans">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
+                fill="none">
+                <path
+                    d="M21.25 5.5C20.8358 5.5 20.5 5.16421 20.5 4.75C20.5 4.33579 20.8358 4 21.25 4C21.6642 4 22 4.33579 22 4.75C22 5.16421 21.6642 5.5 21.25 5.5ZM21.25 5.5V9.25C21.25 9.94778 21.25 10.2967 21.1639 10.5806C20.97 11.2198 20.4698 11.72 19.8306 11.9139C19.5467 12 19.1978 12 18.5 12"
+                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <path
+                    d="M2.75 18.5C3.16421 18.5 3.5 18.8358 3.5 19.25C3.5 19.6642 3.16421 20 2.75 20C2.33579 20 2 19.6642 2 19.25C2 18.8358 2.33579 18.5 2.75 18.5ZM2.75 18.5L2.75 14.75C2.75 14.0522 2.75 13.7033 2.83612 13.4194C3.03002 12.7802 3.53023 12.28 4.16943 12.0861C4.45333 12 4.80222 12 5.5 12"
+                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <path
+                    d="M5.5 2.75009C5.5 3.16431 5.16421 3.50009 4.75 3.50009C4.33579 3.50009 4 3.16431 4 2.75009C4 2.33588 4.33579 2.00009 4.75 2.00009C5.16421 2.00009 5.5 2.33588 5.5 2.75009ZM5.5 2.75009L9.25 2.75009C9.94778 2.75009 10.2967 2.75009 10.5806 2.83621C11.2198 3.03011 11.72 3.53032 11.9139 4.16952C12 4.45342 12 4.80231 12 5.50009"
+                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <path
+                    d="M18.5 21.2501C18.5 20.8359 18.8358 20.5001 19.25 20.5001C19.6642 20.5001 20 20.8359 20 21.2501C20 21.6643 19.6642 22.0001 19.25 22.0001C18.8358 22.0001 18.5 21.6643 18.5 21.2501ZM18.5 21.2501L14.75 21.2501C14.0522 21.2501 13.7033 21.2501 13.4194 21.164C12.7802 20.9701 12.28 20.4699 12.0861 19.8307C12 19.5468 12 19.1979 12 18.5001"
+                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <path
+                    d="M5.54883 11.9512C5.54883 8.88704 5.54883 7.35498 6.50073 6.40307C7.45263 5.45117 8.9847 5.45117 12.0488 5.45117C15.113 5.45117 16.645 5.45117 17.5969 6.40307C18.5488 7.35498 18.5488 8.88704 18.5488 11.9512C18.5488 15.0153 18.5488 16.5474 17.5969 17.4993C16.645 18.4512 15.113 18.4512 12.0488 18.4512C8.9847 18.4512 7.45263 18.4512 6.50073 17.4993C5.54883 16.5474 5.54883 15.0153 5.54883 11.9512Z"
+                    stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                <path
+                    d="M12.499 14.5L11.0384 9.97891C10.9465 9.69466 10.6648 9.5 10.3452 9.5C10.0256 9.5 9.74382 9.69466 9.65199 9.97891L8.19133 14.5M14.9989 9.5V14.5M8.72979 13H11.9606"
+                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h5>AI Integration</h5>
+            <p class="span-p">TTS and AI Integration to Reduce Human Error</p>
+        </span>
+    </div>
 
+    <div class="choose" id="choose">
+        <div class="inner-choose">
+            <h1 class="choose-heading">Why Choose Us?</h1>
 
-		<!-- 3rd -->
-		<span class="info-spans">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
-				fill="none">
-				<path d="M4 15V7C4 5.11438 4 4.17157 4.58579 3.58579C5.17157 3 6.11438 3 8 3H11M20 15V14.5"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-				<path
-					d="M18 2C19.8856 2 20.8284 2 21.4142 2.58579C22 3.17157 22 4.11438 22 6V8C22 9.88562 22 10.8284 21.4142 11.4142C20.8284 12 19.8856 12 18 12C16.1144 12 15.1716 12 14.5858 11.4142C14 10.8284 14 9.88562 14 8L14 6C14 4.11438 14 3.17157 14.5858 2.58579C15.1716 2 16.1144 2 18 2Z"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-				<path d="M18 9H18.009" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-					stroke-linejoin="round" />
-				<path
-					d="M3.49762 16.0154L4.01953 15H19.9518L20.5023 16.0154C21.9452 18.677 22.3046 20.0077 21.7561 21.0039C21.2077 22 19.7536 22 16.8454 22L7.15462 22C4.24642 22 2.79231 22 2.24387 21.0039C1.69543 20.0077 2.05474 18.677 3.49762 16.0154Z"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-			<h5>Easy Walkthrough</h5>
-			<p class="span-p">Access Patient Info Anytime, From any Screen</p>
-		</span>
+            <!-- 1st  -->
+            <div class="choose-info">
+                <span class="choose-img-span">
+                    <img src="img1.png" alt="" class="choose-img">
+                </span>
+                <span class="choose-text">
+                    <h5 class="choose-h5">1. Seamless Patient Management</h5>
+                    <p class="head-text" style="max-height: 50px; overflow: hidden;">Effortlessly manage patient records, appointments, communications and history in a centralized, secure platform tailored for IVF clinics, enhancing efficiency
+                        <button id="readMoreBtn" onclick="toggleContent()">Read More</button>
+                    </p>
+                </span>
+            </div>
 
+            <!-- 2nd  -->
+            <div class="choose-info">
+                <span class="choose-img-span">
+                    <img src="img2.png" alt="" class="choose-img">
+                </span>
+                <span class="choose-text">
+                    <h5 class="choose-h5">2. Detailed IVF Cycle Tracking</h5>
+                    <p class="head-text" style="max-height: 50px; overflow: hidden;">Track each stage of the IVF cycle, from egg retrieval to embryo transfer, with real-time updates and data-driven insights for better outcomes, improving decision
+                        <button id="readMoreBtn" onclick="toggleContent()">Read More</button>
+                    </p>
+                </span>
+            </div>
 
-		<!-- 4th -->
-		<span class="info-spans">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
-				fill="none">
-				<path
-					d="M18.7185 10.7151C18.5258 10.8979 18.2682 11 18.0001 11C17.732 11 17.4744 10.8979 17.2817 10.7151C15.5167 9.03169 13.1515 7.15111 14.305 4.42085C14.9286 2.94462 16.4257 2 18.0001 2C19.5745 2 21.0715 2.94462 21.6952 4.42085C22.8472 7.14767 20.4878 9.03749 18.7185 10.7151Z"
-					stroke="currentColor" stroke-width="1.5" />
-				<path d="M18 6H18.009" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-					stroke-linejoin="round" />
-				<circle cx="5" cy="19" r="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-					stroke-linejoin="round" />
-				<path
-					d="M11 7H9.5C7.567 7 6 8.34315 6 10C6 11.6569 7.567 13 9.5 13H12.5C14.433 13 16 14.3431 16 16C16 17.6569 14.433 19 12.5 19H11"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-			<h5>Map Patients Journey</h5>
-			<p class="span-p">Step Linked Progression Bar to Know Milestones</p>
-		</span>
+            <!-- 3rd  -->
+            <div class="choose-info">
+                <span class="choose-img-span">
+                    <img src="img3.png" alt="" class="choose-img">
+                </span>
+                <span class="choose-text">
+                    <h5 class="choose-h5">3. Automated Billing & Finance Integration</h5>
+                    <p class="head-text" style="max-height: 50px; overflow: hidden;">Streamline complex IVF billing processes with automated milestone-based, package billing and insurance management in one easy-to-use system, reducing
+                        <button id="readMoreBtn" onclick="toggleContent()">Read More</button>
+                    </p>
+                </span>
+            </div>
 
+            <!-- 4th  -->
+            <div class="choose-info">
+                <span class="choose-img-span">
+                    <img src="img4.png" alt="" class="choose-img">
+                </span>
+                <span class="choose-text">
+                    <h5 class="choose-h5">4. Lab Management</h5>
+                    <p class="head-text" style="max-height: 50px; overflow: hidden;">Optimize lab operations by tracking embryo development, managing cryostorage and maintaining compliance with laboratory standards, all while ensuring
+                        <button id="readMoreBtn" onclick="toggleContent()">Read More</button>
+                    </p>
+                </span>
+            </div>
 
-		<!-- 5th -->
-		<span class="info-spans">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
-				fill="none">
-				<path
-					d="M14 2H10C6.72077 2 5.08116 2 3.91891 2.81382C3.48891 3.1149 3.1149 3.48891 2.81382 3.91891C2 5.08116 2 6.72077 2 10C2 13.2792 2 14.9188 2.81382 16.0811C3.1149 16.5111 3.48891 16.8851 3.91891 17.1862C5.08116 18 6.72077 18 10 18H14C17.2792 18 18.9188 18 20.0811 17.1862C20.5111 16.8851 20.8851 16.5111 21.1862 16.0811C22 14.9188 22 13.2792 22 10C22 6.72077 22 5.08116 21.1862 3.91891C20.8851 3.48891 20.5111 3.1149 20.0811 2.81382C18.9188 2 17.2792 2 14 2Z"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-				<path
-					d="M16 8L17.2265 9.05719C17.7422 9.50163 18 9.72386 18 10C18 10.2761 17.7422 10.4984 17.2265 10.9428L16 12"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-				<path
-					d="M8 8L6.77346 9.05719C6.25782 9.50163 6 9.72386 6 10C6 10.2761 6.25782 10.4984 6.77346 10.9428L8 12"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-				<path d="M13 7L11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-					stroke-linejoin="round" />
-				<path d="M14.6557 22L14.2369 21.5811C13.2926 20.6369 13.0585 19.1944 13.6557 18" stroke="currentColor"
-					stroke-width="1.5" stroke-linecap="round" />
-				<path d="M9.00051 22L9.41937 21.5811C10.3636 20.6369 10.5977 19.1944 10.0005 18" stroke="currentColor"
-					stroke-width="1.5" stroke-linecap="round" />
-				<path d="M7 22H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-			</svg>
-			<h5>One Stop Solution</h5>
-			<p class="span-p">No Need For Multiple Software Just Use One</p>
-		</span>
+            <!-- 5th  -->
+            <div class="choose-info">
+                <span class="choose-img-span">
+                    <img src="img5.png" alt="" class="choose-img">
+                </span>
+                <span class="choose-text">
+                    <h5 class="choose-h5">5. Reporting & Compliance</h5>
+                    <p class="head-text" style="max-height: 50px; overflow: hidden;">Generate accurate, automated reports and ensure your clinic meets regulatory standards while tracking performance metrics and patient outcomes
+                        <button id="readMoreBtn" onclick="toggleContent()">Read More</button>
+                    </p>
+                </span>
+            </div>
+        </div>
+    </div>
 
-		<!-- 6th -->
-		<span class="info-spans">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="96" height="96" color="#42c7ff"
-				fill="none">
-				<path
-					d="M21.25 5.5C20.8358 5.5 20.5 5.16421 20.5 4.75C20.5 4.33579 20.8358 4 21.25 4C21.6642 4 22 4.33579 22 4.75C22 5.16421 21.6642 5.5 21.25 5.5ZM21.25 5.5V9.25C21.25 9.94778 21.25 10.2967 21.1639 10.5806C20.97 11.2198 20.4698 11.72 19.8306 11.9139C19.5467 12 19.1978 12 18.5 12"
-					stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-				<path
-					d="M2.75 18.5C3.16421 18.5 3.5 18.8358 3.5 19.25C3.5 19.6642 3.16421 20 2.75 20C2.33579 20 2 19.6642 2 19.25C2 18.8358 2.33579 18.5 2.75 18.5ZM2.75 18.5L2.75 14.75C2.75 14.0522 2.75 13.7033 2.83612 13.4194C3.03002 12.7802 3.53023 12.28 4.16943 12.0861C4.45333 12 4.80222 12 5.5 12"
-					stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-				<path
-					d="M5.5 2.75009C5.5 3.16431 5.16421 3.50009 4.75 3.50009C4.33579 3.50009 4 3.16431 4 2.75009C4 2.33588 4.33579 2.00009 4.75 2.00009C5.16421 2.00009 5.5 2.33588 5.5 2.75009ZM5.5 2.75009L9.25 2.75009C9.94778 2.75009 10.2967 2.75009 10.5806 2.83621C11.2198 3.03011 11.72 3.53032 11.9139 4.16952C12 4.45342 12 4.80231 12 5.50009"
-					stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-				<path
-					d="M18.5 21.2501C18.5 20.8359 18.8358 20.5001 19.25 20.5001C19.6642 20.5001 20 20.8359 20 21.2501C20 21.6643 19.6642 22.0001 19.25 22.0001C18.8358 22.0001 18.5 21.6643 18.5 21.2501ZM18.5 21.2501L14.75 21.2501C14.0522 21.2501 13.7033 21.2501 13.4194 21.164C12.7802 20.9701 12.28 20.4699 12.0861 19.8307C12 19.5468 12 19.1979 12 18.5001"
-					stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-				<path
-					d="M5.54883 11.9512C5.54883 8.88704 5.54883 7.35498 6.50073 6.40307C7.45263 5.45117 8.9847 5.45117 12.0488 5.45117C15.113 5.45117 16.645 5.45117 17.5969 6.40307C18.5488 7.35498 18.5488 8.88704 18.5488 11.9512C18.5488 15.0153 18.5488 16.5474 17.5969 17.4993C16.645 18.4512 15.113 18.4512 12.0488 18.4512C8.9847 18.4512 7.45263 18.4512 6.50073 17.4993C5.54883 16.5474 5.54883 15.0153 5.54883 11.9512Z"
-					stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
-				<path
-					d="M12.499 14.5L11.0384 9.97891C10.9465 9.69466 10.6648 9.5 10.3452 9.5C10.0256 9.5 9.74382 9.69466 9.65199 9.97891L8.19133 14.5M14.9989 9.5V14.5M8.72979 13H11.9606"
-					stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-			</svg>
-			<h5>AI Integration</h5>
-			<p class="span-p">TTS and AI Integration to Reduce Humane Error</p>
-		</span>
-	</div>
+    <div class="benefits" id="benefits">
+        <div class="benefits-inner">
+            <div>
+                <h1 class="benefit-head">Benefits You Will Gain</h1>
+            </div>
+            <!-- 1 -->
+            <div class="benefit-grid">
+                <div class="ben-span">
+                    <div class="ben-img">
+                        <img src="bnf1.png" class="ben-img-tag" alt="">
+                    </div>
+                    <div class="ben-text">
+                        <p class="nrml-txt">Optimize <span class="blue-text">Operations</span></p>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="ben-span">
+                    <div class="ben-img">
+                        <img src="bnf2.png" class="ben-img-tag" alt="">
+                    </div>
+                    <div class="ben-text">
+                        <p class="nrml-txt">Leverage CRM for <span class="blue-text">Patient Growth</span></p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="ben-span">
+                    <div class="ben-img">
+                        <img src="bnf3.png" class="ben-img-tag" alt="">
+                    </div>
+                    <div class="ben-text">
+                        <p class="nrml-txt">Simplify <span class="blue-text">Financial Processes</span></p>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="ben-span">
+                    <div class="ben-img">
+                        <img src="bnf4.png" class="ben-img-tag" alt="">
+                    </div>
+                    <div class="ben-text">
+                        <p class="nrml-txt">Enhanced <span class="blue-text">Data Security</span></p>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="ben-span">
+                    <div class="ben-img">
+                        <img src="bnf5.png" class="ben-img-tag" alt="">
+                    </div>
+                    <div class="ben-text">
+                        <p class="nrml-txt">Forever <span class="blue-text">Medical Records</span></p>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="ben-span">
+                    <div class="ben-img">
+                        <img src="bnf6.png" class="ben-img-tag" alt="">
+                    </div>
+                    <div class="ben-text">
+                        <p class="nrml-txt">Simplify <span class="blue-text">Financial Processes</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<div class="choose">
-		<div class="inner-choose">
-			<h1 class="choose-heading">Why Choose Us?</h1>
+    <div class="faq-outer" id="faq">
+        <div class="faq">
+            <div class="faq-head">
+                <h1 class="faq-head-text">FAQs</h1>
+            </div>
+            <div class="faq-img-div">
+                <img src="faqimg.png" class="faq-img" alt="">
+            </div>
+            <div class="faq-accordian">
+                <div class="custom-accordion accordion" id="accordionExample">
+                    <!-- Item 1 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What features does LifeLinkr software include for clinics?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                LifeLinkr includes patient management, appointment scheduling, billing, EHR, and
+                                customizable dashboards to streamline clinic operations.
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Item 2 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is LifeLinkr software suitable for individual doctors?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes, it is optimized for individual practices with easy setup and minimal management
+                                required.
+                            </div>
+                        </div>
+                    </div>
 
-			<!-- 1st  -->
-			<div class="choose-info">
-				<span class="choose-img-span">
-					<img src="img1.png" alt="" class="choose-img">
-				</span>
-				<span class="choose-text">
-					<h5 class="choose-h5">1. Seamless Patient Management</h5>
-					<p class="head-text">Effortlessly manage patient records, appointments,communications and history in
-						a centralized, secure platform tailored for IVF clincs, enhancing efficency
-						<button id="readMoreBtn" onclick="toggleContent()">Read More</button>
-					</p>
-				</span>
-			</div>
+                    <!-- Item 3 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How secure is patient data in LifeLinkr software?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Patient data is encrypted, access-controlled, and backed up regularly to ensure HIPAA
+                                compliance and high security.
+                            </div>
+                        </div>
+                    </div>
 
-			<!-- 2nd  -->
-			<div class="choose-info">
-				<span class="choose-img-span">
-					<img src="img2.png" alt="" class="choose-img">
-				</span>
-				<span class="choose-text">
-					<h5 class="choose-h5">2. Detailed IVF Cycle Tracking</h5>
-					<p class="head-text">Track each stage of the IVF cycle, from egg retrieval to embryo transfer, with
-						real-time updates and data-driven insights for better outcomes, improving decision
-						<button id="readMoreBtn" onclick="toggleContent()">Read More</button>
-					</p>
-				</span>
-			</div>
+                    <!-- Item 4 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Can I customize the LifeLinkr dashboard style?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes, LifeLinkr allows theme selection, layout changes, and widget configurations
+                                tailored to your workflow.
+                            </div>
+                        </div>
+                    </div>
 
-			<!-- 3rd  -->
-			<div class="choose-info">
-				<span class="choose-img-span">
-					<img src="img3.png" alt="" class="choose-img">
-				</span>
-				<span class="choose-text">
-					<h5 class="choose-h5">3. Automated Billing & Finance Integration</h5>
-					<p class="head-text">Streamline complex IVF billing processes with automated milestone-based,
-						package billing and insurance management in one easy-to-use system, reducing
-						<button id="readMoreBtn" onclick="toggleContent()">Read More</button>
-					</p>
-				</span>
-			</div>
+                    <!-- Item 5 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What are the pricing plans for LifeLinkr?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                LifeLinkr offers monthly and annual plans with a free trial and discounts for long-term
+                                subscriptions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="acc-btn-div">
+                        <a href=""> <button class="acc-btn">Read more</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			<!-- 4th  -->
-			<div class="choose-info">
-				<span class="choose-img-span">
-					<img src="img4.png" alt="" class="choose-img">
-				</span>
-				<span class="choose-text">
-					<h5 class="choose-h5">4. Lab Mangement</h5>
-					<p class="head-text">Optimize lab operations by tracking embryo development, managing crystorage and
-						maintaining compliance with laboratory standards, all while ensuring
-						<button id="readMoreBtn" onclick="toggleContent()">Read More</button>
-					</p>
-				</span>
-			</div>
-			<!-- 5th  -->
-			<div class="choose-info">
-				<span class="choose-img-span">
-					<img src="img5.png" alt="" class="choose-img">
-				</span>
-				<span class="choose-text">
-					<h5 class="choose-h5">5. Reporting & Compliance</h5>
-					<p class="head-text">Generate accurate, automated reports and ensure your clinic meets regulatory
-						standards while tracking performance metrics and patient outcomes
-						<button id="readMoreBtn" onclick="toggleContent()">Read More</button>
-					</p>
-				</span>
-			</div>
+    <div class="form" id="main-form">
+        <form action="" class="demo">
+            <div class="demo-info">
+                <h1 class="demo-head">Schedule a Free Demo</h1>
+                <p class="demo-text">Experience Seamless <span class="demo-yellow">Healthcare Management</span> with
+                    LifeLinker
+                </p>
+            </div>
+            <div class="demo-inputs">
+                <div class="demo-input-row-one">
+                    <input type="text" name="" id="demo-name" placeholder=" Full Name*">
+                    <input type="email" name="" id="demo-email" placeholder=" Email Address*">
+                </div>
+                <div class="demo-input-row-two">
+                    <input type="number" name="" id="demo-num" placeholder=" Phone Number*">
+                    <input type="text" name="" id="demo-whatsapp" placeholder=" WhatsApp Number">
+                </div>
+                <div class="demo-input-row-three">
+                    <input type="text" name="" id="demo-clinic" placeholder="Clinic Name*">
+                    <input type="text" name="" id="demo-country" placeholder=" Country*">
+                </div>
+                <div class="demo-input-row-four">
+                    <input type="text" name="" id="demo-city" placeholder=" City*">
+                    <input type="number" name="" id="demo-user" placeholder=" No. of User">
+                </div>
+                <div class="demo-input-row-five">
+                    <input type="text" name="" id="demo-question" placeholder=" Currently Using Any Software?*">
+                </div>
+                <div class="demo-input-row-six">
+                    <textarea id="demo-messege" placeholder=" Message*"></textarea>
+                </div>
+                <div class="demo-input-row-seven">
+                    <input type="checkbox" id="check-box">
+                    <p class="checkbox-text">
+                        I agree and accept <a class="yellow">Terms and conditions</a>
+                    </p>
+                </div>
+                <div class="demo-submit">
+                    <button class="schedule-btn-demo">
+                        <b>Schedule Demo</b>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
+                            color="#f6c90e" fill="none">
+                            <path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
 
-		</div>
-	</div>
-
-	<div class="benefits">
-		<div class="benefits-inner">
-			<div>
-				<h1 class="benefit-head">Benefits You Will Gain</h1>
-			</div>
-			<!-- 1 -->
-			<div class="benefit-grid">
-				<div class="ben-span">
-					<div class="ben-img">
-						<img src="bnf1.png" class="ben-img-tag" alt="">
-					</div>
-					<div class="ben-text">
-						<p class="nrml-txt">Optimize <span class="blue-text">Operations</span></p>
-					</div>
-
-				</div>
-				<!-- 2 -->
-				<div class="ben-span">
-					<div class="ben-img">
-						<img src="bnf2.png" class="ben-img-tag" alt="">
-					</div>
-					<div class="ben-text">
-						<p class="nrml-txt">Leverage CRM for <span class="blue-text">Patient Growth</span></p>
-					</div>
-
-				</div>
-				<!-- 3 -->
-				<div class="ben-span">
-					<div class="ben-img">
-						<img src="bnf3.png" class="ben-img-tag" alt="">
-					</div>
-					<div class="ben-text">
-						<p class="nrml-txt">Simplify <span class="blue-text">Financial Processes</span></p>
-					</div>
-
-				</div>
-				<!-- 4 -->
-				<div class="ben-span">
-					<div class="ben-img">
-						<img src="bnf4.png" class="ben-img-tag" alt="">
-					</div>
-					<div class="ben-text">
-						<p class="nrml-txt">Enchanced <span class="blue-text">Data Security</span></p>
-					</div>
-
-				</div>
-				<!-- 5 -->
-				<div class="ben-span">
-					<div class="ben-img">
-						<img src="bnf5.png" class="ben-img-tag" alt="">
-					</div>
-					<div class="ben-text">
-						<p class="nrml-txt">Simplify <span class="blue-text">Financial Processes</span></p>
-					</div>
-
-				</div>
-				<!-- 6 -->
-				<div class="ben-span">
-					<div class="ben-img">
-						<img src="bnf6.png" class="ben-img-tag" alt="">
-					</div>
-					<div class="ben-text">
-						<p class="nrml-txt">Forever <span class="blue-text">Medical Records</span></p>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="faq-outer">
-
-		<div class="faq">
-			<div class="faq-head">
-				<h1 class="faq-head-text">FAQs</h1>
-			</div>
-			<div class="faq-img-div">
-				<img src="faqimg.png" class="faq-img" alt="">
-			</div>
-			<div class="faq-accordian">
-				<div class="custom-accordion accordion" id="accordionExample">
-					<!-- Item 1 -->
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingOne">
-							<button class="accordion-button" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-								What features does LifeLinkr software include for clinics?
+    <div class="manage">
+        <div class="manage-inner">
+            <div class="manage-head">
+                <h1 class="manage-head-text">Managing ART Made Hassle Free</h1>
+            </div>
+            <div class="manage-main">
+                <div class="manage-img-div">
+                    <img src="mng.jpeg" class="manage-img" alt="">
+                </div>
+                <div class="manage-info">
+                    <div class="manage-info-text">
+                        <ul class="manage-info-ul">
+                            <li>Comprehensive and secure platform for managing IVF and reproductive health information.
+                            </li>
+                            <li>Centralizes patient data, lab records, treatment cycles, and financial information.</li>
+                            <li>Designed specifically for fertility clinics, making critical information easily
+                                accessible.</li>
+                        </ul>
+                        <a href="#"><button>Read More</button></a>
+                    </div>
+                    <div class="manage-btn">
+						<a href="#main-form">
+							<button class="schedule-btn">
+								<b>Schedule Demo</b>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44" color="#f6c90e" fill="none">
+									<path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
 							</button>
-						</h2>
-						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								LifeLinkr includes patient management, appointment scheduling, billing, EHR, and
-								customizable dashboards to streamline clinic operations.
-							</div>
-						</div>
-					</div>
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-					<!-- Item 2 -->
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingTwo">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Is LifeLinkr software suitable for individual doctors?
+    <div class="manage">
+        <div class="manage-inner">
+            <div class="manage-head">
+                <h1 class="manage-head-text">Stay Focused, No More Software Hopping</h1>
+            </div>
+            <div class="manage-main" id="manage-two">
+                <div class="manage-info">
+                    <div class="manage-info-text">
+                        <ul class="manage-info-ul">
+                            <li>Eliminates the need for multiple standalone systems by integrating essential functions into one platform
+                            </li>
+                            <li>Includes HR, payroll, accounting, bank reconciliation, and inventory management tools.</li>
+                            <li>Provides comprehensive solution for billing, patient management, pharmacy tracking, and bookkeeping</li>
+                        </ul>
+                        <a href="#"><button>Read More</button></a>
+                    </div>
+                    <div class="manage-btn">
+						<a href="#main-form">
+							<button class="schedule-btn">
+								<b>Schedule Demo</b>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44" color="#f6c90e" fill="none">
+									<path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
 							</button>
-						</h2>
-						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Yes, it is optimized for individual practices with easy setup and minimal management
-								required.
-							</div>
-						</div>
-					</div>
-
-					<!-- Item 3 -->
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingThree">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								How secure is patient data in LifeLinkr software?
-							</button>
-						</h2>
-						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Patient data is encrypted, access-controlled, and backed up regularly to ensure HIPAA
-								compliance and high security.
-							</div>
-						</div>
-					</div>
-
-					<!-- Item 4 -->
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingFour">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								Can I customize the LifeLinkr dashboard style?
-							</button>
-						</h2>
-						<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								Yes, LifeLinkr allows theme selection, layout changes, and widget configurations
-								tailored to your workflow.
-							</div>
-						</div>
-					</div>
-
-					<!-- Item 5 -->
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="headingFive">
-							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-								data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-								What are the pricing plans for LifeLinkr?
-							</button>
-						</h2>
-						<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-							data-bs-parent="#accordionExample">
-							<div class="accordion-body">
-								LifeLinkr offers monthly and annual plans with a free trial and discounts for long-term
-								subscriptions.
-							</div>
-						</div>
-					</div>
-					<div class="acc-btn-div">
-						<a href=""> <button class="acc-btn">Read more</button></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-
-	<div class="form">
-		<form action="" class="demo">
-			<div class="demo-info">
-				<h1 class="demo-head">Schedule a Free Demo</h1>
-				<p class="demo-text">Experience Seamless <span class="demo-yellow">Healthcare Mangement
-					</span> with
-					LifeLinker
-				</p>
-			</div>
-			<div class="demo-inputs">
-				<div class="demo-input-row-one">
-					<input type="text" name="" id="demo-name" placeholder=" Full Name*">
-					<input type="email" name="" id="demo-email" placeholder=" Email Address*">
-				</div>
-				<div class="demo-input-row-two">
-					<input type="number" name="" id="demo-num" placeholder=" Phone Number*">
-					<input type="text" name="" id="demo-whatsapp" placeholder=" WhatsApp Number">
-				</div>
-				<div class="demo-input-row-three">
-					<input type="text" name="" id="demo-clinic" placeholder="Clinic Name*">
-					<input type="text" name="" id="demo-country" placeholder=" Country*">
-				</div>
-				<div class="demo-input-row-four">
-					<input type="text" name="" id="demo-city" placeholder=" City*">
-					<input type="number" name="" id="demo-user" placeholder=" No. of User">
-				</div>
-				<div class="demo-input-row-five">
-					<input type="text" name="" id="demo-question" placeholder=" Currently Using Any Software?*">
-				</div>
-				<div class="demo-input-row-six">
-					<textarea id="demo-messege" placeholder=" Message*"></textarea>
-
-				</div>
-				<div class="demo-input-row-seven">
-					<input type="checkbox" id="check-box">
-					<p class="checkbox-text">
-						I agree and accept <a class="yellow">Terms and conditions</a>
-					</p>
-				</div>
-				<div class="demo-submit">
-					<button class="schedule-btn-demo">
-						<b>
-							Schedule Demo
-						</b>
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-							color="#f6c90e" fill="none">
-							<path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5"
-								stroke-linecap="round" stroke-linejoin="round" />
-							<path
-								d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
-								stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-								stroke-linejoin="round" />
-						</svg>
-					</button>
-				</div>
-			</div>
-		</form>
-	</div>
-
-	<div class="manage">
-		<div class="manage-inner">
-			<div class="manage-head">
-				<h1 class="manage-head-text">Managing ART Made Hassle Free</h1>
-			</div>
-			<div class="manage-main">
-				<div class="manage-img-div">
-					<img src="mng.jpeg" class="manage-img" alt="">
-				</div>
-				<div class="manage-info">
-					<div class="manage-info-text">
-						<ul class="manage-info-ul">
-							<li>Comprehensive and secure platform for managing IVF and reproductive health information.
-							</li>
-							<li>Centralizes patient data, lab records, treatment cycles, and financial information.</li>
-							<li>Designed specifucallt for fertility clicncs, making critical information easily
-								accessible.</li>
-						</ul>
-						<a href="#"><button>Read More</button></a>
-					</div>
-					<div class="manage-btn">
-						<button>
-							<b>
-								Schedule Demo
-							</b>
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#f6c90e" fill="none">
-								<path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5"
-									stroke-linecap="round" stroke-linejoin="round" />
-								<path
-									d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
-									stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-									stroke-linejoin="round" />
-							</svg>
-						</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="manage">
-		<div class="manage-inner">
-			<div class="manage-head">
-				<h1 class="manage-head-text">Stay Focused, No More Software Hopping</h1>
-			</div>
-			<div class="manage-main">
-				<div class="manage-info">
-					<div class="manage-info-text">
-						<ul class="manage-info-ul">
-							<li>Eliminates the need for multiole standalone systems by integrating essentia; functions into one platform
-							</li>
-							<li>Include HR, patroll, accounting, bank reconciliation and invetory management tools.</li>
-							<li>Provides comprehensive solution for billing, patient management, pharmacy tracking and bookkeeping</li>
-							</ul>
-							<a href="#"><button>Read More</button></a>
-						</div>
-						<div class="manage-btn">
-							<button>
-								<b>
-									Schedule Demo
-								</b>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="44" height="44"
-								color="#f6c90e" fill="none">
-								<path d="M20.0001 11.9998L4.00012 11.9998" stroke="currentColor" stroke-width="1.5"
-								stroke-linecap="round" stroke-linejoin="round" />
-								<path
-								d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
-								stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-								stroke-linejoin="round" />
-							</svg>
-						</button>
-					</div>
-				</div>
-				<div class="manage-img-div">
-					<img src="mng.jpeg" class="manage-img" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer>
-		<div class="footer-link">
-			<div class="footer-img">
-				<img src="title2.png" alt="">
-			</div>
-			<div class="policy-links">
-				<a href="#">Privacy Policy</a> |
-				<a href="#">Ads Policy</a> |
-				<a href="#">Data Privacy</a> |
-				<a href="#">Disclaimer</a> |
-				<a href="#">User Agreement</a> |
-				<a href="#">Intellectual Property Rights</a> |
-				<a href="#">Cookie Policy</a> |
-				<a href="#">Refund Policy</a> |
-				<a href="#">Contact Information</a> |
-				<a href="#">Accessibility Statement</a> |
-				<a href="#">Security Policy</a> |
-				<a href="#">GDPR Compliance</a>
-			  </div>
-			  <div class="ft-img">
-				<img src="ftimg.png" alt="">
-			  </div>
-		</div>
-		<div class="footer-input">
-
-			<div>
-				<h3>Schedule Your Demo</h3>
-			</div>
-			<div class="footer-input-box">
-				<form action="">
-					<input type="number" name="" id="">
-					<button>
-							Book Appointment
-					</button>
-				</form>
-			</div>
-		</div>
-	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+						</a>
+                    </div>
+                </div>
+                <div class="manage-img-div">
+                    <img src="mng.jpeg" class="manage-img" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-link">
+            <div class="footer-img">
+                <img src="title2.png" alt="">
+            </div>
+            <div class="policy-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Ads Policy</a> |
+                <a href="#">Data Privacy</a> |
+                <a href="#">Disclaimer</a> |
+                <a href="#">User  Agreement</a> |
+                <a href="#">Intellectual Property Rights</a> |
+                <a href="#">Cookie Policy</a> |
+                <a href="#">Refund Policy</a> |
+                <a href="#">Contact Information</a> |
+                <a href="#">Accessibility Statement</a> |
+                <a href="#">Security Policy</a> |
+                <a href="#">GDPR Compliance</a>
+            </div>
+            <div class="ft-img">
+                <img src="ftimg.png" alt="">
+            </div>
+        </div>
+        <div class="footer-input">
+            <div>
+                <h3>Schedule Your Demo</h3>
+            </div>
+            <div class="footer-input-box">
+                <form action="">
+                    <input type="number" name="" id="" placeholder=" Contact Number">
+                    <button>Book Appointment</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
